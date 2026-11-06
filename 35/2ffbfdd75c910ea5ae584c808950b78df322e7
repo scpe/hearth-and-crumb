@@ -1,0 +1,27 @@
+README.md
+  s_6ced8b82ded339::t_655524809c55b3 1-50
+index.html
+  s_6ced8b82ded339::t_6579701cbf49f2 1-30
+js/data.js
+  s_6ced8b82ded339::t_6c4b2fdb2f7904 1-484
+js/game.js
+  s_6ced8b82ded339::t_3d30535e9e2f68 1-1306
+styles.css
+  s_6ced8b82ded339::t_9cc36dda1fc28c 1-285
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "352ffbfdd75c910ea5ae584c808950b78df322e7",
+  "prompts": {},
+  "sessions": {
+    "s_6ced8b82ded339": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "02d19578-e351-4895-9394-f306c15d35a6",
+        "model": "unknown"
+      },
+      "human_author": "scott pederson <scpe@users.noreply.github.com>"
+    }
+  }
+}
