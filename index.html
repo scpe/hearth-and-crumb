@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hearth &amp; Crumb</title>
+  <meta name="description" content="Hearth & Crumb: a cozy, accessible fantasy bakery RPG you can play with a keyboard or screen reader, at your own pace.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%90%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to game content</a>
+  <header class="site-header">
+    <h1 class="brand"><a id="brand-link" href="#main"><span aria-hidden="true">🥐 </span>Hearth &amp; Crumb</a></h1>
+    <p class="tagline">A cozy bakery tale in the town of Lanternmere</p>
+    <div id="status-bar" class="status-bar" hidden></div>
+    <nav id="game-nav" class="game-nav" aria-label="Game sections" hidden></nav>
+  </header>
+  <div id="live" class="message" role="status" aria-live="polite" aria-atomic="true"></div>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <p>Hearth &amp; Crumb: an accessibility-first game. Your progress is saved in this browser only.</p>
+  </footer>
+  <dialog id="dialog" class="dialog"></dialog>
+  <noscript><p>Hearth &amp; Crumb needs JavaScript turned on to play.</p></noscript>
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
